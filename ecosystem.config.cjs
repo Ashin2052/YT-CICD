@@ -4,7 +4,7 @@ module.exports = {
       name: "express-app",
       script: "./dist/index.js", // TypeScript compiled output
       instances: 1,
-      exec_mode: "cluster",
+      exec_mode: "fork",
       watch: false,
       max_memory_restart: "500M",
       error_file: "./logs/err.log",
