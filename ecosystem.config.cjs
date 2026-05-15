@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "express-app",
       script: "./dist/index.js", // TypeScript compiled output
-      instances: "max",
+      instances: 1,
       exec_mode: "cluster",
       watch: false,
       max_memory_restart: "500M",
